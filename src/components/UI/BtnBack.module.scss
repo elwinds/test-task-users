@@ -1,0 +1,15 @@
+﻿@import '../../variables.scss';
+
+.btn {
+    background: $gradient;
+    border-radius: 10px;
+    font-family: 'Gilroy';
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 17px;
+    color: $whiteColor;
+    border: none;
+    padding: 10px 25px;
+    cursor: pointer;
+    margin-bottom: 30px;
+}

@@ -1,0 +1,47 @@
+﻿@import '../../variables.scss';
+
+.container {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    border: 1px solid black;
+    background: $purpleColor;
+    margin-top: 50px;
+    padding: 30px;
+    border-radius: 15px;
+    color: $whiteColor;
+}
+
+.label {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+
+.input {
+    border-radius: 15px;
+    padding: 10px 15px;
+    margin-top: 10px;
+    background: $bcgInput;
+    border: none;
+    color: $whiteColor;
+
+    &::-webkit-input-placeholder {
+        color: $placeholderInput;
+    }
+}
+
+.btn {
+    background: $gradient;
+    border-radius: 10px;
+    font-family: 'Gilroy';
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 17px;
+    color: $whiteColor;
+    border: none;
+    padding: 10px 25px;
+    cursor: pointer;
+    margin: 20px 0 30px 0;
+    width: 300px;
+}

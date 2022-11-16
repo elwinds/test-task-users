@@ -1,0 +1,33 @@
+﻿@import '../../variables.scss';
+
+.container {
+    width: 600px;
+    height: 400px;
+    display: flex;
+    margin-top: 70px;
+    border-radius: 10px;
+    background: $bcgCard;
+
+    &__img {
+        width: 50%;
+        object-fit: cover;
+        border-radius: 10px 0 0 10px;
+    }
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    margin: 20px 0 0 25px;
+    justify-content: space-between;
+    color: $whiteColor;
+
+    &__text {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        height: 100px;
+    }
+}
+
+

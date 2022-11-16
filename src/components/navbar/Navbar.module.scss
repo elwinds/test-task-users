@@ -1,0 +1,32 @@
+﻿@import '../../variables.scss';
+
+.container {
+    display: flex;
+    background: $purpleColor;
+    font-family: 'Gilroy';
+    color: $whiteColor;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+
+    &__link {
+        text-decoration: none;
+        color: $whiteColor;
+    }
+
+    &__title {
+        font-weight: 400;
+        font-size: 25px;
+        padding: 0 30px 0 20px;
+    }
+
+    &__addUserLogo {
+        width: 40px;
+        height: 40px;
+        padding: 0 20px;
+    }
+}
+
+.logosorting {
+    display: flex;
+}

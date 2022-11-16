@@ -1,0 +1,31 @@
+﻿@import '../../variables.scss';
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 50px;
+    width: 80%;
+}
+
+.btn {
+    cursor: pointer;
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 27px;
+    color: $whiteColor;
+    background: $purpleColor;
+    border: none;
+    border-radius: 5px;
+    margin: 10px;
+    width: 40px;
+    height: 40px;
+
+    &--active {
+        background: $gradient;
+    }
+}

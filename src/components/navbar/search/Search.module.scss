@@ -1,0 +1,32 @@
+﻿@import '../../../variables.scss';
+
+.searchContainer {
+    position: relative;
+
+    &__input {
+        width: 300px;
+        height: 30px;
+        background-color: $bcgInput;
+        color: $whiteColor;
+        font-family: 'Gilroy';
+        font-size: 15px;
+        padding-right: 40px;
+        padding-left: 20px;
+        border-radius: 10px;
+        border: none;
+        background-image: url('../../../img/search.png');
+        background-repeat: no-repeat;
+        background-size: 20px 20px;
+        background-position: 95% center;
+        position: relative;
+        z-index: 4;
+
+        &::-webkit-input-placeholder {
+            color: $placeholderInput;
+        }
+
+        &:focus {
+            outline: $focusOutline;
+        }
+    }
+}

@@ -1,0 +1,16 @@
+﻿@import '../../variables.scss';
+
+.container {
+    width: 90%;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 20px auto;
+    justify-content: center;
+
+    &__text {
+        color: $redColor;
+        font-size: 30px;
+        font-weight: 400;
+        margin-top: 50px;
+    }
+}
